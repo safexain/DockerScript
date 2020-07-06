@@ -27,7 +27,7 @@ sleep 3
 # Docker Compose
 sudo wget \
         --output-document=/usr/local/bin/docker-compose \
-        https://github.com/docker/compose/releases/download/1.24.0/run.sh \
+        https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m) \
     && sudo chmod +x /usr/local/bin/docker-compose \
     && sudo wget \
         --output-document=/etc/bash_completion.d/docker-compose \
